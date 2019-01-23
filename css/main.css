@@ -1,0 +1,163 @@
+body{
+    font-family: "Microsoft Yahei";
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-inverse{
+    background: rgb(255, 121, 36);
+    border: none;
+}
+.navbar-brand{
+    padding: 5px 5px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+.jumbotron {
+    background: url(../images/banner.jpg) center center no-repeat;
+    padding: 24px 0;
+    margin-bottom: 0;
+}
+.jumbotron .banner-title{
+    margin-top: 40px;
+}
+@media(max-width:992px){
+    .jumbotron .banner-title{
+        margin-top: 10px;
+    }
+
+}
+.active-title{
+    color: #ff0;
+    font-size: 18px;
+    margin-top: 20px;
+}
+ .jumbotron .banner-desc{
+    color: white;
+    font-size: 14px;
+    line-height: 28px;
+}
+.active-pic-title{
+    font-size: 30px;
+    color: #333;
+    margin: 32px 0 15px;
+
+}
+.active-pic-desc{
+    font-size: 14px;
+    color: #333;
+
+}
+.thumbnail{
+    max-width: 270px;
+    margin: 10px auto;
+}
+
+
+/* .fixed-pic{
+   max-width: 250px;
+   max-height: 185px;
+   min-width: 150px;
+   min-height: 120px;
+}
+@media(max-width:620px){
+.fixed-pic{
+   max-height: 165px;
+}
+
+}
+@media(max-width:540px){
+.fixed-pic{
+   max-height: 120px;
+} */
+
+/* .thumbnail{
+    max-width: 185px;
+    margin: 5px auto;
+}
+} */
+
+.active-desc{
+    font-size: 14px;
+}
+.common_title{
+    height: 40px;
+    background: rgb(255, 119, 33);
+}
+.common-header-title{
+    font: 16px/40px "Microsoft Yahei";
+    color: white;
+    margin: 0;
+    text-indent: 10px;
+
+}
+.common-more{
+    font-size: 12px;
+    color: white;
+    margin: 15px 20px 0 0;
+
+}
+
+.goods-title{
+    font-size: 14px;
+    color: rgb(119, 119, 118);
+    text-align: center;
+}
+.goods-desc{
+    font-size: 14px;
+    color: rgb(201, 34, 24);
+    text-align: center;
+}
+.goods-desc em{
+    font-style: normal;
+    font-size: 22px;
+}
+.goods-item{
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-right-color: white;
+}
+.goods-list{
+    margin: 0;
+}
+
+.goods-item:nth-child(2n){
+    border-right-color: #dddddd;
+}
+
+@media(min-width:768px){
+.goods-item:nth-child(2n){
+    border-right-color: white;
+}
+.goods-item:nth-child(3n){
+    border-right-color: #dddddd;
+}
+}
+
+@media(min-width:992px){
+.goods-item:nth-child(3n){
+    border-right-color: white;
+}
+.goods-item:nth-child(4n){
+    border-right-color: #dddddd;
+}
+}
+@media(min-width:1200px){
+.goods-item:nth-child(4n){
+    border-right-color: white;
+}
+.goods-item:nth-child(6n){
+    border-right-color: #dddddd;
+}
+}
